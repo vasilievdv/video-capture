@@ -17,7 +17,7 @@ export const initialState: EventsState = {
   },
 };
 
-export const TrainSpeedReducer = createReducer(initialState, {
+export const EventsReducer = createReducer(initialState, {
   [types.GET_EVENTS_REQUEST]: getEventsRequestReducer,
   [types.GET_EVENTS_SUCCESS]: getEventsSuccessReducer,
   [types.GET_EVENTS_FAILED]: getEventsFailedReducer,

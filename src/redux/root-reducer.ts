@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import { TrainSpeedReducer, EventsState } from '../components/MainPage';
+import { EventsReducer, EventsState } from '../components/MainPage';
 
 const rootReducer = combineReducers({
-  events: TrainSpeedReducer,
+  events: EventsReducer,
 });
 
 export interface State {
