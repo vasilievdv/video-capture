@@ -16,7 +16,7 @@ function EventsList(props: Props) {
 
   return (
     <div className={styles.eventsWrapper}>
-      <label htmlFor={playbackEventSelectId}>Select playback event:</label>
+      <label htmlFor={playbackEventSelectId}>Select event:</label>
       <select
         id={playbackEventSelectId}
         value={playbackEvent}
