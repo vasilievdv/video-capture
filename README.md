@@ -10,3 +10,4 @@ In the project directory, you can run:
 
 ### Live Demo:
 
+https://video-squares.netlify.app/
