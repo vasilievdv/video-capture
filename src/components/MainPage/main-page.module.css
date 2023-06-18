@@ -1,0 +1,6 @@
+.videoWrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 24px auto;
+}
